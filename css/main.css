@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -33,5 +34,25 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+/* Убираю маркер у всех списков  */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Убирает подчеркивание*/
+.logo,
+.nav-link,
+.address-link,
+.footer-address,
+.footer-link,
+.footer-logo,
+.footer-address-address,
+.footer-address-link,
+.portfolio-link {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

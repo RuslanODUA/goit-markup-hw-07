@@ -31,3 +31,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Убираю маркер у всех списков  */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Убирает подчеркивание*/
+.logo,
+.nav-link,
+.address-link,
+.footer-address,
+.footer-link,
+.footer-logo,
+.footer-address-address,
+.footer-address-link,
+.portfolio-link {
+  text-decoration: none;
+}
