@@ -26,3 +26,22 @@
 .nav-link:focus {
   color: var(--accent-link-color);
 }
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  position: relative;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}

@@ -41,3 +41,10 @@
   color: var(--primary-text-color);
   margin-bottom: 16px;
 }
+
+.feature {
+  display: flex;
+}
+.feature-item:not(:last-child) {
+  margin-right: 30px;
+}
