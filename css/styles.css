@@ -113,22 +113,3 @@
 /*********************** Постоянные клиенты *****************************/
 
 /********* П О Р Т Ф О Л И О ************/
-
-.portfolio-bloc-text {
-  border: 1px solid #eeeeee;
-  padding: 20px 24px;
-}
-.portfolio-title {
-  color: var(--title-text-color);
-  font-size: 18px;
-  /* padding-left: 24px;
-  margin-bottom: 4px; */
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.87;
-  /* padding-left: 24px;
-  margin-bottom: 20px; */
-}
