@@ -891,7 +891,7 @@ img {
 }
 
 .icon-subscribe {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   margin-left: 10px;
   fill: var(--accent-text-color);
