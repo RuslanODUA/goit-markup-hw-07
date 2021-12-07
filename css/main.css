@@ -10,6 +10,7 @@
   --border-client-color: #afb1b8;
   --social-bg-color: #ffffff1a;
 }
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -19,6 +20,7 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
 }
+
 p,
 h1,
 h2,
@@ -26,8 +28,10 @@ h3,
 h4 {
   margin: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+/*# sourceMappingURL=main.css.map */
