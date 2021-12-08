@@ -448,9 +448,9 @@ ul {
   cursor: pointer;
 }
 
-.icon-user,
-.icon-phone,
-.icon-envelope {
+.form__icon-user,
+.form__icon-phone,
+.form__icon-envelope {
   /* width: 18px;
   height: 18px; */
   position: absolute;
@@ -471,15 +471,15 @@ ul {
   /* fill: var(--accent-link-color); */
 }
 
-.form__feedback:hover > .icon-user,
-.form__feedback:hover > .icon-phone,
-.form__feedback:hover > .icon-envelope {
+.form__feedback:hover > .form__icon-user,
+.form__feedback:hover > .form__icon-phone,
+.form__feedback:hover > .form__icon-envelope {
   fill: var(--accent-link-color);
 }
 
-.form__feedback:focus-within > .icon-user,
-.form__feedback:focus-within > .icon-phone,
-.form__feedback:focus-within > .icon-envelope {
+.form__feedback:focus-within > .form__icon-user,
+.form__feedback:focus-within > .form__icon-phone,
+.form__feedback:focus-within > .form__icon-envelope {
   fill: var(--accent-link-color);
 }
 
