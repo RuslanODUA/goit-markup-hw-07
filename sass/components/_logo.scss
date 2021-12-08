@@ -1,5 +1,4 @@
-.logo,
-.footer-logo {
+.logo {
   /* margin-right: 94px; */
   font-family: Raleway, sans-serif;
   color: var(--logo-text-color);
@@ -11,10 +10,6 @@
   margin-right: 94px;
 }
 /* Задаю цвет первой части логотипа "Web" */
-.logo-web,
-.footer-logo-web {
+.logo-web {
   color: var(--accent-link-color);
-}
-.footer-logo-studio {
-  color: var(--accent-text-color);
 }

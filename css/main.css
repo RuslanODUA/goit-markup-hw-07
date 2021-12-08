@@ -49,9 +49,9 @@ ul {
 .address__link,
 .footer-address,
 .footer-link,
-.footer-logo,
-.footer-address-address,
-.footer-address-link,
+.footer__logo,
+.footer__address,
+.footer__address-link,
 .portfolio-link {
   text-decoration: none;
 }
@@ -80,8 +80,7 @@ ul {
   padding-bottom: 94px;
 }
 
-.logo,
-.footer-logo {
+.logo {
   /* margin-right: 94px; */
   font-family: Raleway, sans-serif;
   color: var(--logo-text-color);
@@ -95,13 +94,8 @@ ul {
 }
 
 /* Задаю цвет первой части логотипа "Web" */
-.logo-web,
-.footer-logo-web {
+.logo-web {
   color: var(--accent-link-color);
-}
-
-.footer-logo-studio {
-  color: var(--accent-text-color);
 }
 
 /* Новигация по сайту  */
@@ -908,7 +902,7 @@ ul {
   margin-bottom: 16px;
 }
 
-.footer-address-address {
+.footer__address {
   color: var(--accent-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -918,7 +912,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address-link {
+.footer__address-link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
@@ -933,16 +927,29 @@ ul {
   background-color: #2f303a;
 }
 
-.footer-logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  color: var(--logo-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.footer-item:not(:last-child) {
+.footer__web {
+  color: var(--accent-link-color);
+}
+
+.footer__studio {
+  color: var(--accent-text-color);
+}
+
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-box {
+.footer__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -951,10 +958,10 @@ ul {
           align-items: baseline;
 }
 
-.footer-address-address:focus,
-.footer-address-address:hover,
-.footer-address-link:focus,
-.footer-address-link:hover {
+.footer__address:focus,
+.footer__address:hover,
+.footer__address-link:focus,
+.footer__address-link:hover {
   fill: var(--accent-link-color);
   color: var(--accent-link-color);
 }
@@ -1177,7 +1184,7 @@ ul {
   margin-right: 8px;
 }
 
-.address-box {
+.address__box {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
