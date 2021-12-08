@@ -273,6 +273,11 @@ ul {
 }
 
 .portfolio-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.87;
   /* padding-left: 24px;
@@ -673,9 +678,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.feature-text,
-.team-text,
-.portfolio-text {
+.feature__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -896,6 +899,14 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
 }
 
 .footer-address-address {
