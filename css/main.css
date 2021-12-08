@@ -131,7 +131,7 @@ ul {
   color: var(--accent-link-color);
 }
 
-.nav-container {
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,7 +140,7 @@ ul {
           align-items: center;
 }
 
-.nav-list {
+.nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,7 +154,7 @@ ul {
   margin-right: 50px;
 }
 
-.main-nav {
+.nav__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -27,11 +27,11 @@
   color: var(--accent-link-color);
 }
 
-.nav-container {
+.nav {
   display: flex;
   align-items: center;
 }
-.nav-list {
+.nav__list {
   display: flex;
 }
 .nav-item {
@@ -41,7 +41,7 @@
   margin-right: 50px;
 }
 
-.main-nav {
+.nav__main {
   display: flex;
   align-items: center;
 }
