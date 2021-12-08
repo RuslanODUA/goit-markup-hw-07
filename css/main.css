@@ -951,6 +951,14 @@ ul {
           align-items: baseline;
 }
 
+.footer-address-address:focus,
+.footer-address-address:hover,
+.footer-address-link:focus,
+.footer-address-link:hover {
+  fill: var(--accent-link-color);
+  color: var(--accent-link-color);
+}
+
 .social-box {
   display: block;
   margin-left: 70px;
@@ -1186,18 +1194,13 @@ ul {
   margin-right: 50px;
 }
 
-/* .tim-item:not(:last-child) {
-  margin-right: 30px;
-} */
-/************************************************************************************/
-/* Адресс */
-.address-icon {
+.address__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-.address-icon-smart {
+.address__icon-smart {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -1220,11 +1223,7 @@ ul {
 }
 
 .address__link:focus,
-.address__link:hover,
-.footer-address-address:focus,
-.footer-address-address:hover,
-.footer-address-link:focus,
-.footer-address-link:hover {
+.address__link:hover {
   fill: var(--accent-link-color);
   color: var(--accent-link-color);
 }
