@@ -1,4 +1,4 @@
-.form-subscribe {
+.subscribe__form {
   display: inline-flex;
   justify-content: space-between;
   width: 570px;
@@ -7,13 +7,13 @@
   margin: 0;
 }
 
-.form-field-subscribe {
+.subscribe__field {
   width: 358px;
   height: 50px;
   margin-right: 12px;
 }
 
-.form-input-subscribe {
+.subscribe__input {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -27,7 +27,7 @@
   outline: none;
 }
 
-.button-subscribe {
+.subscribe__button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-.icon-subscribe {
+.subscribe__icon {
   display: flex;
   align-items: center;
   margin-left: 10px;
