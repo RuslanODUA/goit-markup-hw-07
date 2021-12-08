@@ -11,3 +11,7 @@
 .logo__web {
   color: var(--accent-link-color);
 }
+
+.logo__web:not(:last-child) {
+  margin-right: 8px;
+}
