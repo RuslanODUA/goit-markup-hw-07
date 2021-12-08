@@ -643,22 +643,8 @@ ul {
   cursor: pointer;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /**********************************/
-.icon-box {
+.feature__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -674,12 +660,12 @@ ul {
           justify-content: center;
 }
 
-.icon {
+.feature__icon {
   width: 70px;
   height: 70px;
 }
 
-.feature-title {
+.feature__title {
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
@@ -703,8 +689,22 @@ ul {
   display: flex;
 }
 
-.feature-item:not(:last-child) {
+.feature__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .work-section {
