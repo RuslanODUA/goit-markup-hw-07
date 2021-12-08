@@ -1,15 +1,13 @@
 .logo {
-  /* margin-right: 94px; */
+  margin-right: 94px;
   font-family: Raleway, sans-serif;
   color: var(--logo-text-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.logo {
-  margin-right: 94px;
-}
+
 /* Задаю цвет первой части логотипа "Web" */
-.logo-web {
+.logo__web {
   color: var(--accent-link-color);
 }
