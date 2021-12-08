@@ -46,7 +46,7 @@ ul {
 /* Убирает подчеркивание*/
 .logo,
 .nav__link,
-.address-link,
+.address__link,
 .footer-address,
 .footer-link,
 .footer-logo,
@@ -1165,14 +1165,14 @@ ul {
           flex-grow: 1;
 }
 
-.address-list {
+.address {
   margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.address-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -1193,7 +1193,7 @@ ul {
   margin-right: 10px;
 }
 
-.address-link {
+.address__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1209,8 +1209,8 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-link:focus,
-.address-link:hover,
+.address__link:focus,
+.address__link:hover,
 .footer-address-address:focus,
 .footer-address-address:hover,
 .footer-address-link:focus,
