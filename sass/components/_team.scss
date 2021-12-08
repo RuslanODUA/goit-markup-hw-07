@@ -17,57 +17,6 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.item-desktop::after {
-  position: absolute;
-  content: "Десктопные приложения";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  color: var(--accent-text-color);
-  background-color: rgba(47, 48, 58, 0.8);
-  bottom: 0px;
-  right: 0px;
-  text-transform: uppercase;
-}
-.item-mobile::after {
-  position: absolute;
-  content: "Мобильные приложения";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  color: var(--accent-text-color);
-  background-color: rgba(47, 48, 58, 0.8);
-  bottom: 0px;
-  right: 0px;
-  text-transform: uppercase;
-}
-.item-designer::after {
-  position: absolute;
-  content: "Дизайнерские решения";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  color: var(--accent-text-color);
-  background-color: rgba(47, 48, 58, 0.8);
-  bottom: 0px;
-  right: 0px;
-  text-transform: uppercase;
-}
 .team-list {
   text-align: center;
   display: flex;
@@ -78,9 +27,6 @@
 
 .team-section {
   background-color: #f5f4fa;
-}
-.tim-list {
-  display: flex;
 }
 
 .team-text {
