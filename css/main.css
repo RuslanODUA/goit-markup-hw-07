@@ -610,7 +610,7 @@ ul {
   color: #188ce8;
 }
 
-.form-button-box {
+.send {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -619,7 +619,7 @@ ul {
           justify-content: center;
 }
 
-.form-button {
+.send__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
