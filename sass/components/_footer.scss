@@ -6,6 +6,12 @@
   /* font-weight: 400; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    fill: var(--accent-link-color);
+    color: var(--accent-link-color);
+  }
 }
 .footer__address-link {
   color: rgba(255, 255, 255, 0.6);
@@ -15,6 +21,12 @@
   /* font-weight: 400; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    fill: var(--accent-link-color);
+    color: var(--accent-link-color);
+  }
 }
 .footer {
   padding: 60px 0;
@@ -44,12 +56,4 @@
 .footer__box {
   display: flex;
   align-items: baseline;
-}
-
-.footer__address:focus,
-.footer__address:hover,
-.footer__address-link:focus,
-.footer__address-link:hover {
-  fill: var(--accent-link-color);
-  color: var(--accent-link-color);
 }
