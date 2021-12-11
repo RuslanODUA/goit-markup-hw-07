@@ -7,10 +7,12 @@
 }
 .networks__item {
   background-color: var(--accent-text-color);
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
-.networks__item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .networks__link {
   display: flex;
   width: 44px;

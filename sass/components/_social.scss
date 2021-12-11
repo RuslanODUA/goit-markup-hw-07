@@ -32,13 +32,13 @@
 .social__item {
   border-radius: 50%;
   background-color: var(--social-bg-color);
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .social__icon {
   width: 20px;
   height: 20px;
   /* margin: 12px; */
-}
-
-.social__item:not(:last-child) {
-  margin-right: 10px;
 }
