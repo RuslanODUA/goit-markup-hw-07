@@ -1,61 +1,4 @@
 @charset "UTF-8";
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-link-color: #2196f3;
-  --accent-text-color: #ffffff;
-  --logo-text-color: #000000;
-  --main-bg-color: #2f303a;
-  --icon-bg-color: #f5f4fa;
-  --icon-client-color: #afb1b8;
-  --border-client-color: #afb1b8;
-  --social-bg-color: #ffffff1a;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71;
-  background-color: #ffffff;
-  letter-spacing: 0.03em;
-  margin: 0;
-}
-
-p,
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Убираю маркер у всех списков  */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Убирает подчеркивание*/
-.logo,
-.nav__link,
-.nav__link--current,
-.address__link,
-.footer__address,
-.footer__logo,
-.footer__address,
-.footer__address-link,
-.portfolio__link {
-  text-decoration: none;
-}
-
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -317,6 +260,63 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-link-color: #2196f3;
+  --accent-text-color: #ffffff;
+  --logo-text-color: #000000;
+  --main-bg-color: #2f303a;
+  --icon-bg-color: #f5f4fa;
+  --icon-client-color: #afb1b8;
+  --border-client-color: #afb1b8;
+  --social-bg-color: #ffffff1a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  background-color: #ffffff;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Убираю маркер у всех списков  */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Убирает подчеркивание*/
+.logo,
+.nav__link,
+.nav__link--current,
+.address__link,
+.footer__address,
+.footer__logo,
+.footer__address,
+.footer__address-link,
+.portfolio__link {
+  text-decoration: none;
 }
 
 .header {
