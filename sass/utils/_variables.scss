@@ -19,35 +19,3 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
 }
-p,
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Убираю маркер у всех списков  */
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Убирает подчеркивание*/
-.logo,
-.nav__link,
-.nav__link--current,
-.address__link,
-.footer__address,
-.footer__logo,
-.footer__address,
-.footer__address-link,
-.portfolio__link {
-  text-decoration: none;
-}

@@ -29,3 +29,9 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+.filter__item {
+  color: var(--accent-link-color);
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
